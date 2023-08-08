@@ -1,0 +1,11 @@
+numpy>=1.13.1
+pandas
+python-dotenv
+tqdm>=4.15.0
+gputil
+jupyter
+jupyterlab
+ipympl
+torch
+torchvision
+tensorboard

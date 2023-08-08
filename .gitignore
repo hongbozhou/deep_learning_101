@@ -1,0 +1,4 @@
+venv_t/
+model.ckpt
+data/
+*.ipynb_checkpoints
