@@ -29,6 +29,6 @@ You can launch jupyter notebook with
 ```
 or simply
 ```
-% jupyterlab
+% jupyter-lab
 ```
 whichever you prefer to. Jupyter's web interface should be launched in the default browser. If not, you can launch it by clicking the link that shows up on the terminal or by visiting http://localhost:8888 on your browser.You can now play with the jupyter notebooks.
