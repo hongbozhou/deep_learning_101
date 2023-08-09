@@ -7,15 +7,15 @@ This is a collection of basic tutorials on Python, numpy, and pytorch tensor, an
 
 To start, it's common practice to work on a project within a python virtual environment. I have been using python's builtin module *venv* for a long while. So I am going to stick to it here as an example to set up the virtual environment. But you are free to use any virtual environment that you feel comfortable with, such as *poetry*, etc. 
 ```
-% python -m venv venv_t
+$ python -m venv venv_t
 ```
 This will build a virtual environment *venv_t*. Note here `$` is a linux command prompt. There is no need to type it. 
 
 Running the following command
 ```
-% source venv_t/bin/activate
+$ source venv_t/bin/activate
 ```
-will activate this virtual environment.
+will activate this virtual environment when your linux Shell is Bash. For Csh, you have to activate `activate.csh`.
 
 If we need some other python packages, we can collect them into a file, such as `requirements.txt`. And install those python packages to this virtual environment by running the following command:
 ```
