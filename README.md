@@ -19,16 +19,16 @@ will activate this virtual environment when your linux Shell is Bash. For Csh, y
 
 If we need some other python packages, we can collect them into a file, such as `requirements.txt`. And install those python packages to this virtual environment by running the following command:
 ```
-% pip install -r requirements.txt
+$ pip install -r requirements.txt
 ```
 
 ## Jupyter notebook
 You can launch jupyter notebook with 
 ```
-% jupyter lab
+$ jupyter lab
 ```
 or simply
 ```
-% jupyter-lab
+$ jupyter-lab
 ```
 whichever you prefer to. Jupyter's web interface should be launched in the default browser. If not, you can launch it by clicking the link that shows up on the terminal or by visiting http://localhost:8888 on your browser.You can now play with the jupyter notebooks.
