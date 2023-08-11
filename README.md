@@ -3,6 +3,13 @@ This repository contains jupyter notebooks for python, numpy, pytorch, cnn
 
 This is a collection of basic tutorials on Python, numpy, and pytorch tensor, and CNN (Convolutional Neural Network) for MNIST dataset. I have borrowed many codes and notes from internet. I need to find sometime to give back their credits.
 
+## Clone the repository
+Go to a directory that you want to put your codes, then clone the repository
+```
+% git clone https://github.com/hongbozhou/deep_learning_101.git
+```
+Now you should have a folder named `deep_learning_101`. then `cd` to it.
+
 ## Virtual environment
 
 To start, it's common practice to work on a project within a python virtual environment. I have been using python's builtin module *venv* for a long while. So I am going to stick to it here as an example to set up the virtual environment. But you are free to use any virtual environment that you feel comfortable with, such as *poetry*, etc. 
