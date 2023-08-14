@@ -1,36 +1,39 @@
 # Deep Learning 101
-This repository contains jupyter notebooks for python, numpy, pytorch, cnn
+This repository contains jupyter notebooks for python, numpy, pytorch, CNN (Convolutional Neural Networks).
 
-This is a collection of basic tutorials on Python, numpy, and pytorch tensor, and CNN (Convolutional Neural Network) for MNIST dataset. I have borrowed many codes and notes from internet. I need to find sometime to give back their credits.
+This is a collection of basic tutorials on Python, numpy, and pytorch tensor, and CNNs for MNIST dataset. I have borrowed many codes and notes from internet. I need to give back their credits some time later.
 
 ## Clone the repository
-Go to a directory that you want to put your codes, then clone the repository
+Go to a file folder at your local or remote cloud machine that you wish to play with this repository, and clone the repository from the github:
 ```
 $ git clone https://github.com/hongbozhou/deep_learning_101.git
 ```
-Now you should have a folder named `deep_learning_101`. then `cd` to it.
+Note here `$` is a linux command prompt. There is no need to type it. Now you should have a folder named `deep_learning_101`. then `cd` to it.
 
-## Virtual environment
+## Set up virtual environment
 
-To start, it's common practice to work on a project within a python virtual environment. I have been using python's builtin module *venv* for a long while. So I am going to stick to it here as an example to set up the virtual environment. But you are free to use any virtual environment that you feel comfortable with, such as *poetry*, etc. 
+To start, it's common practice to work on a project within a python virtual environment. I have been using python's builtin module `venv` for a long while. So I am going to stick to it here as an example to set up the virtual environment. But you are free to use any virtual environment that you feel comfortable with, such as `poetry`, etc. 
 ```
 $ python -m venv venv_t
 ```
-This will build a virtual environment *venv_t*. Note here `$` is a linux command prompt. There is no need to type it. 
+This will build a virtual environment `venv_t`. You only need to do it **once**.
 
-Running the following command
+If your linux Shell is `csh`, you may have to run the following command
 ```
 $ source venv_t/bin/activate.csh
 ```
-will activate this virtual environment if your linux Shell is Csh. For Bash or sh, you have to activate `activate`.
+will activate this virtual environment. Otherwise, for other linux Shells, such as `bash` or plain `sh`, you may need to activate the environment with the following:
+```
+$ source venv_t/bin/activate
+```
 
-If we need some other python packages, we can collect them into a file, such as `requirements.txt`. And install those python packages to this virtual environment by running the following command:
+We generally collect other python package names into a file, such as `requirements.txt`. And we install those python packages to this virtual environment by running the following command:
 ```
 $ pip install -r requirements.txt
 ```
 
-## Jupyter notebook
-You can launch jupyter notebook with 
+## Jupyter notebooks
+You can launch jupyterlab application with 
 ```
 $ jupyter lab
 ```
