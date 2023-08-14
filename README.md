@@ -6,7 +6,7 @@ This is a collection of basic tutorials on Python, numpy, and pytorch tensor, an
 ## Clone the repository
 Go to a directory that you want to put your codes, then clone the repository
 ```
-% git clone https://github.com/hongbozhou/deep_learning_101.git
+$ git clone https://github.com/hongbozhou/deep_learning_101.git
 ```
 Now you should have a folder named `deep_learning_101`. then `cd` to it.
 
@@ -20,9 +20,9 @@ This will build a virtual environment *venv_t*. Note here `$` is a linux command
 
 Running the following command
 ```
-$ source venv_t/bin/activate
+$ source venv_t/bin/activate.csh
 ```
-will activate this virtual environment when your linux Shell is Bash. For Csh, you have to activate `activate.csh`.
+will activate this virtual environment if your linux Shell is Csh. For Bash or sh, you have to activate `activate`.
 
 If we need some other python packages, we can collect them into a file, such as `requirements.txt`. And install those python packages to this virtual environment by running the following command:
 ```
